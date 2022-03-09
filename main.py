@@ -7,25 +7,25 @@ SCREEN_HEIGHT = 600
 SCREEN_WIDTH = 1100
 SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
-RUNNING = [pygame.image.load(os.path.join("F:\dino", "DinoRun1.png")),
-           pygame.image.load(os.path.join("F:\dino", "DinoRun2.png"))]
-JUMPING = pygame.image.load(os.path.join("F:\dino", "DinoJump.png"))
-DUCKING = [pygame.image.load(os.path.join("F:\dino", "DinoDuck1.png")),
-           pygame.image.load(os.path.join("F:\dino", "DinoDuck2.png"))]
+RUNNING = [pygame.image.load(os.path.join("dino", "DinoRun1.png")),
+           pygame.image.load(os.path.join("dino", "DinoRun2.png"))]
+JUMPING = pygame.image.load(os.path.join("dino", "DinoJump.png"))
+DUCKING = [pygame.image.load(os.path.join("dino", "DinoDuck1.png")),
+           pygame.image.load(os.path.join("dino", "DinoDuck2.png"))]
 
-SMALL_CACTUS = [pygame.image.load(os.path.join("F:\dino", "SmallCactus1.png")),
-                pygame.image.load(os.path.join("F:\dino", "SmallCactus2.png")),
-                pygame.image.load(os.path.join("F:\dino", "SmallCactus3.png"))]
-LARGE_CACTUS = [pygame.image.load(os.path.join("F:\dino", "LargeCactus1.png")),
-                pygame.image.load(os.path.join("F:\dino", "LargeCactus2.png")),
-                pygame.image.load(os.path.join("F:\dino", "LargeCactus3.png"))]
+SMALL_CACTUS = [pygame.image.load(os.path.join("dino", "SmallCactus1.png")),
+                pygame.image.load(os.path.join("dino", "SmallCactus2.png")),
+                pygame.image.load(os.path.join("dino", "SmallCactus3.png"))]
+LARGE_CACTUS = [pygame.image.load(os.path.join("dino", "LargeCactus1.png")),
+                pygame.image.load(os.path.join("dino", "LargeCactus2.png")),
+                pygame.image.load(os.path.join("dino", "LargeCactus3.png"))]
 
-BIRD = [pygame.image.load(os.path.join("F:\dino", "Bird1.png")),
-        pygame.image.load(os.path.join("F:\dino", "Bird2.png"))]
+BIRD = [pygame.image.load(os.path.join("dino", "Bird1.png")),
+        pygame.image.load(os.path.join("dino", "Bird2.png"))]
 
-CLOUD = pygame.image.load(os.path.join("F:\dino", "Cloud.png"))
+CLOUD = pygame.image.load(os.path.join("dino", "Cloud.png"))
 
-BG = pygame.image.load(os.path.join("F:\dino", "Track.png"))
+BG = pygame.image.load(os.path.join("dino", "Track.png"))
 
 
 class Dinosaur:
